@@ -1,0 +1,33 @@
+<!doctype html>
+<title>机器状态</title>
+{% if summary %}
+  <h1> 显卡数:{{summary[0]}}  总算力：{{summary[1]}}M  总功耗：{{summary[2]}}W</h1>
+{% endif %}
+
+{% if cards %}
+<table width="80%" cellspacing="10" text-align="left">
+  {% for card in cards %}
+    <tr>
+      <td lenth="40" ><div style="color:blue">{{card[0]}}</div></td>
+      {% if card[5][0] %}
+        <td ><div style="color:red">Hashrate：{{card[1]}}M</div></td>
+        {% else %}
+        <td >Hashrate：{{card[1]}}M</td>
+      {% endif %}
+      <td >Fan Speed：{{card[2]}}%</td>
+      {% if card[5][1] %}
+      <td ><div style="color:red">Temperature：{{card[3]}}℃</div></td>
+      {% else %}
+      <td >Temperature：{{card[3]}}℃</td>
+      {% endif %}
+      {% if card[5][2] %}
+      <td ><div style="color:red">Power:{{card[4]}}W</div></td>
+      {% else %}
+      <td >Power:{{card[4]}}W</td>
+      {% endif %}
+    </tr>
+  {% endfor %}
+</table>
+{% else %}
+  <h1>啥都没有！</h1>
+{% endif %}
