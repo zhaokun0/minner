@@ -1,5 +1,6 @@
 # 简介
-    此代码主要实现web端远程监视矿机，以及采用邮件的方式报告矿机工作状态的变动与异常状况。
+此代码主要实现web端远程监视矿机，以及采用邮件的方式报告矿机工作状态的变动与异常状况。
+
 #### 示例：
 [机器状态示范](http://101.132.155.12:5000/)
 ![Image text](https://github.com/zhaokun0/minner/blob/master/IMG/web.png)
@@ -11,7 +12,7 @@
 ## 1.运行环境搭建(Windows)
    默认您已有python3环境，相关依赖包有flask、requests，可执行以下代码安装：
 
-               `pip install flask requests`
+               pip install flask requests
    在不同网络下的机器，可以使用zerotier one 搭建虚拟局域网，此内容自行研究。
    若想通过外网访问，需要服务部署在服务器上，或是自己有公网ip，这部分请自行发挥。邮件通知功能不需要。
 ## 2.各文件功能及说明
