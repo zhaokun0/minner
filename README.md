@@ -20,16 +20,16 @@
    2.2 子模块AliSendmail.py用于发送邮件，代码中发件人地址和密码、收件人地址，需要自行填写：        
 
 ```
-         ` username = '***@aliyun.com'#阿里云邮箱`  
-         ` password = '****'`  
-         ` rcptto = '17863118591@163.com'`  
+         username = '***@aliyun.com'#阿里云邮箱
+         password = '****'
+         rcptto = '17863118591@163.com'
 ```
 
 
    2.3 webShow.py是用于将各个矿机的数据整合到一起，通过网页进行显示，其网页的模板在templates\web.html中，根据自己网络的延迟情况，设定timeout参数，较差的网络需要设置高一些，不然有些机器找不到。            
 
 ```
-   	` content=requests.get(url,timeout=5).content`  
+   	content=requests.get(url,timeout=5).content
 ```
 
 
@@ -38,8 +38,8 @@
    2.4watch.py用于发送邮件通知，填写自己的邮件地址即可。
 
 ## 3.运行程序
-                `python webShow.py`
-                `python watch.py`
+                python webShow.py
+                python watch.py
 
    
 
