@@ -43,7 +43,9 @@
                 python webShow.py
                 python watch.py
 
+## 4.其他小功能
 
+请移步[others](https://github.com/zhaokun0/minner/tree/master/others)目录，[countWage](https://github.com/zhaokun0/minner/tree/master/others/countWage)为算力日结脚本。
 
 # 问题与改进
 
