@@ -23,14 +23,13 @@
          ` username = '***@aliyun.com'#阿里云邮箱`  
          ` password = '****'`  
          ` rcptto = '17863118591@163.com'`  
-
 ```
 
 
    2.3 webShow.py是用于将各个矿机的数据整合到一起，通过网页进行显示，其网页的模板在templates\web.html中，根据自己网络的延迟情况，设定timeout参数，较差的网络需要设置高一些，不然有些机器找不到。            
 
 ```
-   		` content=requests.get(url,timeout=5).content`  
+   	` content=requests.get(url,timeout=5).content`  
 ```
 
 
