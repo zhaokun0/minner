@@ -43,8 +43,22 @@
                 python webShow.py
                 python watch.py
 
+
+
+# 问题与改进
+
+欢迎您对我的工作提出改进意见。
+
+之后有其他相关的功能，我也将会在此处分享。
+
+若有侵权，请联系我17863118591@163.com。
+
+**动动手指，点个star，感谢！。**
+
+
+
 # 捐赠
 
-万一有老板想支持我，可以通过此[链接](https://github.com/zhaokun0/minner/blob/master/IMG/pay.png )。
+万一......有老板想支持我，可以通过此[链接](https://github.com/zhaokun0/minner/blob/master/IMG/pay.png )。
 
 ​           
