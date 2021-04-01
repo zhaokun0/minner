@@ -6,3 +6,9 @@
 邮件通知：
 
 ![Image text](https://github.com/zhaokun0/minner/blob/master/IMG/mail.png)
+
+# 教程
+## 1.运行环境
+           默认您已有python3环境，相关依赖包有flask、requests，可执行以下代码安装：
+           `pip install flask request`
+           
