@@ -43,7 +43,13 @@
                 python webShow.py
                 python watch.py
 
-   
+# 捐赠
+
+万一有老板想支持我，可以通过此
+
+[链接]: https://github.com/zhaokun0/minner/blob/master/IMG/mail.png
+
+。
 
    
 
