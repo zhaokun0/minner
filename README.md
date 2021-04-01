@@ -4,4 +4,5 @@
 [机器状态示范](http://101.132.155.12:5000/)
 ![Image text](https://github.com/zhaokun0/minner/blob/master/IMG/web.png)
 邮件通知：
+
 ![Image text](https://github.com/zhaokun0/minner/blob/master/IMG/mail.png)
