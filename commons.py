@@ -4,7 +4,7 @@ urls=[
 for i in range(11,60):
     url="http://192.168.0.{:d}:22333/api/v1/status".format(i)
     urls.append(url)
-print(urls)
+
 #用于判断各项指标是否正常
 #哈希率，温度值，功耗值,第四个用于计数使用
 stateEvaluation={
