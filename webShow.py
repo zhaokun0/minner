@@ -26,7 +26,7 @@ def readall():
     powers=0 #总功率
     for url in urls:
             try:
-                content=requests.get(url,timeout=3).content
+                content=requests.get(url,timeout=5).content
                 encode_type = chardet.detect(content)
                 content = content.decode(encode_type['encoding'])
                 if('Unable to round-trip http request to upstream' in content):
@@ -71,11 +71,16 @@ def writeTofile(doc):
 
 
 def readFromfile():
-    webFile=open('webinfo.pkl','rb')
-    doc=pickle.load(webFile)
-    cards=doc[0]
-    summary=doc[1]
+    try:
+        webFile=open('webinfo.pkl','rb')
+        doc=pickle.load(webFile)
+        cards=doc[0]
+        summary=doc[1]
+    except:
+        cards=None
+        summary=None
     return  cards,summary
+        
 
 def msgprocess():
     while True:
